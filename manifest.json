@@ -1,0 +1,24 @@
+{
+   "content_scripts": [ {
+      "all_frames": false,
+      "js": [ "hanabi.js" ],
+      "matches": [ "http://*.boardgamearena.com/*", "https://*.boardgamearena.com/*" ],
+      "run_at": "document_end"
+   } ],
+   "description": "Shows negative clue information when playing Hanabi on boardgamearena.com",
+   "icons": {
+      "128": "image-128.png",
+      "48": "image-48.png"
+   },
+   "applications" : {
+      "gecko" : {
+         "id" : "hanabihelper@autocardanywhere.com"
+      }
+   },
+   "manifest_version": 2,
+   "name": "HanabiHelper",
+   "permissions": [ "http://*.boardgamearena.com/*", "https://*.boardgamearena.com/*" ],
+   "short_name": "HanabiHelper",
+   "version": "0.0.11",
+   "web_accessible_resources": [ "hanabi.css", "announce.js" ]
+}

@@ -1,0 +1,118 @@
+.hanabiHelper-hidden {
+	display: none;
+	visibility: hidden;
+}
+
+.hanabiHelper-bgaclue {
+	height: 20px;
+	width: 20px;
+}
+
+.hanabiHelper-values {
+	position: absolute;
+	overflow: hidden;
+	top: 31px;
+	left: 0px;
+	width: 48px;
+	height: 32px;
+}
+.hanabiHelper-colours {
+	position: absolute;
+	overflow: hidden;
+	top: 64px;
+	left: 0px;
+	width: 48px;
+	height: 32px;
+}
+.hanabiHelper-colours.hanabiHelper-size-1 {
+	width: 64px;
+}
+
+.hanabiHelper-size-1 div {
+	width: 32px;
+	height: 32px;
+}
+.hanabiHelper-size-2 div {
+	width: 16px;
+	height: 16px;
+}
+.hanabiHelper-size-3 div {
+	width: 16px;
+	height: 16px;
+}
+.hanabiHelper-size-4 div {
+	width: 16px;
+	height: 16px;
+}
+.hanabiHelper-size-5 div {
+	width: 16px;
+	height: 16px;
+}
+.hanabiHelper-size-6 div {
+	width: 16px;
+	height: 16px;
+}
+
+.hanabiHelper-marker {
+	background-size: cover;
+	float: left;
+}
+
+.hanabiHelper-positive {
+	/* border: 2px solid red; */
+}
+
+.hanabiHelper-values.hanabiHelper-size-1 .hanabiHelper-blank {
+	height: 0px;
+	width: 0px;
+}
+.hanabiHelper-colours.hanabiHelper-size-1 .hanabiHelper-blank {
+	height: 0px;
+	width: 0px;
+}
+
+.hanabiHelper-values .hanabiHelper-blank {
+	height: 16px;
+	width: 16px;
+	background-image: url(https://cdn.boardgamearena.net/data/themereleases/current/games/hanabi/200213-1217/img/TokenEmpty.png);
+}
+.hanabiHelper-colours .hanabiHelper-blank {
+	height: 16px;
+	width: 16px;
+	background-image: url(https://cdn.boardgamearena.net/data/themereleases/current/games/hanabi/200213-1217/img/TokenEmpty.png);
+}
+
+.hanabiHelper-1 {
+	background-image: url(https://cdn.boardgamearena.net/data/themereleases/current/games/hanabi/200213-1217/img/Token1.png);
+}
+.hanabiHelper-2 {
+	background-image: url(https://cdn.boardgamearena.net/data/themereleases/current/games/hanabi/200213-1217/img/Token2.png);
+}
+.hanabiHelper-3 {
+	background-image: url(https://cdn.boardgamearena.net/data/themereleases/current/games/hanabi/200213-1217/img/Token3.png);
+}
+.hanabiHelper-4 {
+	background-image: url(https://cdn.boardgamearena.net/data/themereleases/current/games/hanabi/200213-1217/img/Token4.png);
+}
+.hanabiHelper-5 {
+	background-image: url(https://cdn.boardgamearena.net/data/themereleases/current/games/hanabi/200213-1217/img/Token5.png);
+}
+
+.hanabiHelper-red {
+	background-image: url(https://cdn.boardgamearena.net/data/themereleases/current/games/hanabi/200213-1217/img/TokenRed.png);
+}
+.hanabiHelper-yellow {
+	background-image: url(https://cdn.boardgamearena.net/data/themereleases/current/games/hanabi/200213-1217/img/TokenYellow.png);
+}
+.hanabiHelper-green {
+	background-image: url(https://cdn.boardgamearena.net/data/themereleases/current/games/hanabi/200213-1217/img/TokenGreen.png);
+}
+.hanabiHelper-blue {
+	background-image: url(https://cdn.boardgamearena.net/data/themereleases/current/games/hanabi/200213-1217/img/TokenBlue.png);
+}
+.hanabiHelper-white {
+	background-image: url(https://cdn.boardgamearena.net/data/themereleases/current/games/hanabi/200213-1217/img/TokenWhite.png);
+}
+.hanabiHelper-multicolor {
+	background-image: url(https://cdn.boardgamearena.net/data/themereleases/current/games/hanabi/200213-1217/img/TokenMulticolor.png);
+}
